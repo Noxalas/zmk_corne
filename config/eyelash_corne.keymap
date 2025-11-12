@@ -111,13 +111,13 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        nordic_layer {
-            display-name = "NORDIC";
+        gaming_layer {
+            display-name = "GAMING";
             bindings = <
-&none &none &none &none &none &none                               &none &none &none &none &none &none &none
-&none &kp UC(00E5) &none &none &none &none             &none &none &none &none &none &kp UC(00F8) &none &kp UC(00E6)
-&none &none &none &none &none &none &none             &none &none &none &kp UC(00C5) &kp UC(00D8) &kp UC(00C6) &none
-                         &none &none &none                                   &none &none &none
+&kp ESC    &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&td0       &kp A  &kp S  &kp D     &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+                         &kp LGUI  &td0  &lt 3 SPACE                                               &lt 3 ENTER  &mo 0  &kp RALT
             >;
         };
 
