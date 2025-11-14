@@ -14,7 +14,7 @@ layers:
   - Y
   - {t: ;, s: ':'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td0'
+  - $$mdi:apple-keyboard-shift$$
   - A
   - R
   - S
@@ -45,7 +45,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - LGUI
   - NUMBER
-  - {t: '$$mdi:keyboard-space$$', h: FNC}
+  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: FNC}
   - SYMBOL
   - $$mdi:apple-keyboard-option$$
@@ -94,7 +94,7 @@ layers:
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - INS
   - $$mdi:backspace-reverse-outline$$
   - GAMING
@@ -192,8 +192,8 @@ layers:
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   GAMING:
@@ -210,7 +210,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td0'
+  - $$mdi:keyboard-tab$$
   - A
   - S
   - D
@@ -225,7 +225,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -239,10 +239,10 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
-  - LGUI
-  - {t: '&td0', type: held}
-  - {t: '$$mdi:keyboard-space$$', h: FNC}
-  - {t: '$$mdi:keyboard-return$$', h: FNC}
+  - $$mdi:apple-keyboard-control$$
+  - {t: COLEMAK, type: held}
+  - {t: '$$mdi:keyboard-space$$', type: held}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: COLEMAK, type: held alternate}
   - {t: '$$mdi:apple-keyboard-option$$', type: held}
 combos:
