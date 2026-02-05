@@ -54,12 +54,14 @@
     macros {
         arrow_thin {
             compatible = "zmk, behavior-macro";
+            label = "ARROW_THIN";
             #binding-cells = <0>;
             bindings =
                 <&kp MINUS>, <&kp MINUS>, <&kp GT>;
         };
         arrow_thick {
             compatible = "zmk, behavior-macro";
+            label = "ARROW_THICK";
             #binding-cells = <0>;
             bindings =
                 <&kp EQUAL>, <&kp EQUAL>, <&kp GT>;
@@ -69,6 +71,7 @@
     behaviors {
         arrow_morph: arrow_morph {
             compatible = "zmk, behavior-mod-morph";
+            label = "ARROW_MORPH";
             #binding-cells = <0>;
             bindings = <&arrow_thin &arrow_thick>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
