@@ -71,9 +71,9 @@
             compatible = "zmk, behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&arrow_thin &arrow_thick>;
-            mods = <(MOD_LSFT|MOD_RSFT)>
-        }
-    }
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
