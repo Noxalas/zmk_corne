@@ -107,10 +107,10 @@ layers:
   - '|'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - ^
-  - '{'
-  - '}'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - $
-  - '&arrow_morph'
+  - {t: '&arrow_thin', s: '&arrow_thick'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
