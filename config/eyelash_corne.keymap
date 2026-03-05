@@ -102,8 +102,8 @@
         };
 
         nav_layer {
-            label = "NAVI";
-            display-name = "NAVI";
+            label = "NAV";
+            display-name = "NAV";
             bindings = <
 &trans &kp ESC   &kp EXCL  &kp UP   &kp EQUAL &kp LBRC                           &mmv MOVE_UP                   &kp RBRC &kp N7 &kp N8 &kp N9 &kp KP_PLUS     &kp BSPC
 &trans &kp LSHFT &kp LEFT  &kp DOWN &kp RIGHT &kp LBKT            &mmv MOVE_LEFT &mkp LCLK      &mmv MOVE_RIGHT &kp RBKT &kp N4 &kp N5 &kp N6 &kp KP_MINUS    &kp PG_UP
