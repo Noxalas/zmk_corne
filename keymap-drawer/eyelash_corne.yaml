@@ -4,51 +4,51 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - F
-  - P
-  - B
+  - E
+  - R
+  - T
   - $$mdi:volume-high$$
-  - J
-  - L
-  - U
   - Y
+  - U
+  - I
+  - O
   - {t: ;, s: ':'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
   - A
-  - R
   - S
-  - T
+  - D
+  - F
   - G
   - $$mdi:skip-previous$$
   - PLAY PAUSE
   - $$mdi:skip-next$$
-  - M
-  - N
-  - E
-  - I
+  - H
+  - J
+  - K
+  - L
   - O
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
-  - D
   - V
+  - B
   - $$mdi:keyboard-space$$
   - $$mdi:volume-low$$
-  - K
-  - H
+  - N
+  - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - LGUI
-  - {t: '$$mdi:keyboard-tab$$', h: NAV}
+  - {t: '$$mdi:keyboard-space$$', h: NAV}
+  - {t: '$$mdi:apple-keyboard-option$$', h: ADJ}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: ADJ}
-  - {t: '$$mdi:keyboard-esc$$', h: SYM}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-space$$', h: SYM}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   NAV:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-esc$$
@@ -192,8 +192,8 @@ layers:
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
