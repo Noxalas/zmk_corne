@@ -12,7 +12,7 @@ layers:
   - U
   - I
   - O
-  - {t: ;, s: ':'}
+  - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
   - A
@@ -27,8 +27,8 @@ layers:
   - J
   - K
   - L
-  - O
   - {t: '''', s: '"'}
+  - {t: ;, s: ':'}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -143,8 +143,8 @@ layers:
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   ADJ:
